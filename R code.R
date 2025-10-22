@@ -142,7 +142,8 @@ mat_list <- list(mat1, mat2, mat3, mat4, mat5, mat6)
 row_list_list <- lapply(mat_list, function(mat) as.list(mat[1000, ]))
 names(row_list_list) <- paste0("mat", 1:length(mat_list))
 
-
+# code for picture 3 
+# same as above just put x_0=c(5,5,5,10,25)/m
                         
 
                         
